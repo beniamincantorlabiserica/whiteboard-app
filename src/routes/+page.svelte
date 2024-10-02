@@ -8,7 +8,7 @@
 
 
     onMount(() => {
-		toast.success("It works!");
+
 	})
 
     function seetoast() {
@@ -17,14 +17,9 @@
 </script>
 
 <HeroText />
-<Toaster />
-
-<div class="flex justify-center">
-    <button on:click={seetoast} class="btn btn-secondary">
-        Click here to see the toast
-    </button>
-</div>
+<DottedCallOut />
 
 <Faq />
+
 
 

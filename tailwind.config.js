@@ -6,7 +6,7 @@ export default {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["lemonade", "dim", "winter", "coffee", "retro", "synthwave"], // Add all themes you might use
+    themes: ["lemonade", "dim", "winter", "coffee", "retro", "synthwave", "cyberpunk", "aqua"], // Add all themes you might use
   },
 }
 

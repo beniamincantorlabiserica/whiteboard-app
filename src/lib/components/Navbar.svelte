@@ -1,19 +1,16 @@
-<div class="navbar bg-base-200 w-full rounded-2xl">
-    <div class="flex-1">
-      <a class="btn btn-ghost text-xl">App Name</a>
-    </div>
-    <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
-        <li><a>Link</a></li>
-        <li>
-          <details>
-            <summary>Parent</summary>
-            <ul class="bg-base-100 rounded-t-none p-2">
-              <li><a>Link 1</a></li>
-              <li><a>Link 2</a></li>
-            </ul>
-          </details>
-        </li>
-      </ul>
+<script>
+  import icon from "$lib/images/icon.png"
+
+  function goToPage() {
+    window.location.href = "/";
+  }
+</script>
+
+<div class="navbar bg-base-200 w-full rounded-2xl flex justify-center">
+    <div class="text-center">
+      <a class="btn btn-ghost text-xl" on:click={goToPage}>
+        <img src={icon} class="w-10"/>  
+        WhiteBoardy
+      </a>
     </div>
   </div>
