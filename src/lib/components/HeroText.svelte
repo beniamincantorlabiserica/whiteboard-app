@@ -1,3 +1,12 @@
+<script>
+
+  function goToPage() {
+    window.location.href = "/whiteboard";
+  }
+
+</script>
+
+
 <div class="hero bg-base-100 h-[50dvh] mt-8">
     <div class="hero-content text-center">
       <div class="max-w-md">
@@ -6,7 +15,7 @@
           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
           quasi. In deleniti eaque aut repudiandae et a id nisi.
         </p>
-        <button class="btn btn-primary">Get Started</button>
+        <button class="btn btn-primary" on:click={goToPage}>Get Started</button>
       </div>
     </div>
   </div>

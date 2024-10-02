@@ -1,6 +1,7 @@
 <script>
     import "../app.css";
     import { theme } from '$lib/stores/theme';
+    import Footer from '$lib/components/Footer.svelte';
     import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 	import LinkButton from "../lib/components/LinkButton.svelte";
 	import Navbar from "../lib/components/Navbar.svelte";
@@ -41,4 +42,5 @@
         </div>
     </div>
     <slot />
+    <Footer />
   </div>
