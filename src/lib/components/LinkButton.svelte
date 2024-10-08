@@ -1,6 +1,6 @@
 <script>
 	import imageUrl from '$lib/images/me.jpeg'
-	let linkUrl = 'https://personal-website-svelte-6hf.pages.dev/';
+	let linkUrl = 'https://beniamin.io/';
 </script>
 
 <!-- <div class="fixed top-4 right-4 z-50"> -->
